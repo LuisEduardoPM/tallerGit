@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/kalu1"
+        android:layout_width="172dp"
+        android:layout_height="144dp"
+        android:text='"hola 1"'
+        app:layout_constraintBottom_toTopOf="@+id/kalu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="uwu 1" />
+
+    <TextView
+        android:id="@+id/kalu2"
+        android:layout_width="172dp"
+        android:layout_height="144dp"
+        android:text="hola 2"
+        app:layout_constraintBottom_toTopOf="@+id/kalu3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kalu1"
+        tools:text="uwu 2 " />
+
+    <TextView
+        android:id="@+id/kalu3"
+        android:layout_width="172dp"
+        android:layout_height="144dp"
+        android:text="hola 3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kalu2"
+        tools:text="uwu 3 " />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
